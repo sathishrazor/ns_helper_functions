@@ -43,7 +43,7 @@ if(status == 2)
 #
 ```sh
 var count = newRecord.getLineCount("item");
-var items = getLines(newRecord, "item", ["displayname", "itemid"])
+var items = getLines(newRecord, "item", ["item"])
 var itemSearch = {
     type: "item",
     filters: [["internalid", "anyof", items]],
